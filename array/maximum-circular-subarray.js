@@ -9,6 +9,7 @@ function maximumCircularSubArray(arr) {
   for (let i = 1; i < 2 * arr.length - 1; i++) {
     cur = Math.max(cur + arr[i % arr.length], arr[i % arr.length]);
     res = Math.max(res, cur);
+    console.log(arr[i % arr.length]);
   }
 
   return res;
