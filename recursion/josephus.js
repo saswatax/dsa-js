@@ -14,11 +14,12 @@ function josephus(n, k) {
 console.log(josephus(5, 3));
 
 /**
+ * using array and circular traversal
  * @param {number} n
  * @param {number} k
  * @returns {number}
  */
-function josephusNaive(n, k) {
+function josephus_naive(n, k) {
   const arr = Array(n).fill(1);
   let remains = n;
   let pos = 0;
