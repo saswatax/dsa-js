@@ -27,7 +27,7 @@ function longestEvenOdd(arr) {
  * @param {number[]} arr
  * @returns {number}
  */
-function longestEvenOdd_complex(arr) {
+function longestEvenOdd_mine(arr) {
   let res = 0;
   let evenCount = 0;
   let oddCount = 0;

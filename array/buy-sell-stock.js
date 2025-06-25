@@ -19,7 +19,7 @@ function buySellStock(arr) {
  * @param {number[]} arr
  * @returns {number}
  */
-function buySellStock_complex(arr) {
+function buySellStock_mine(arr) {
   let res = 0;
   let buy = arr[0];
   let sellIdx = 1;
@@ -39,5 +39,5 @@ function buySellStock_complex(arr) {
   return res;
 }
 
-console.log(buySellStock_complex([1, 5, 3, 8, 12]));
-console.log(buySellStock_complex([1, 5, 3, 1, 2, 8]));
+console.log(buySellStock_mine([1, 5, 3, 8, 12]));
+console.log(buySellStock_mine([1, 5, 3, 1, 2, 8]));
